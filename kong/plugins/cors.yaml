@@ -1,0 +1,6 @@
+plugins:
+- name: cors
+  route: /flights
+  config:
+    origins:
+    - '*'
